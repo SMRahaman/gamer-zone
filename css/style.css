@@ -551,13 +551,13 @@ line-height: 30px
     }
 
     .video_img {
-      width: 350px;
-      height: 350px;
+      width: 300px;
+      height: 300px;
     }
 
     .video_img img{
-      width: 350px;
-      height: 350px;
+      width: 300px;
+      height: 300px;
     }
 
     .video_gallery_content p{
@@ -566,7 +566,7 @@ line-height: 30px
 
     .advertise{
        flex-direction: column;
-       padding: 10px;
+       padding: 0px;
     }
 
     .add_title{
@@ -583,13 +583,21 @@ line-height: 30px
     }
     
     .advertise_right_side{
-        width: 100%
+        width: 100%;
+        
     }
 
     .image1{
-        width: 80%;
-      
-        left: 70px;
+        width: 87%;
+        left: 30px;
+    
+    }
+
+    .image2{
+        width: 40%;
+        position: absolute;
+        bottom: -40px;
+        left: 10px;
     
     }
     
@@ -602,7 +610,7 @@ line-height: 30px
 
     .features_cat{
     
-        width: 170px;
+        width: 160px;
         height: 80px;
       
     }
@@ -613,12 +621,12 @@ line-height: 30px
   
     .footer_nav {
       flex-wrap: wrap;
-      gap: 30px;
+      gap: 20px;
     }
 
     .footer_nav_2 {
         flex-wrap: wrap;
-        gap: 20px;
+        gap: 10px;
       }
 
   }
